@@ -16,3 +16,12 @@
 //     break;
 // }
 // console.log(char);
+
+
+//-----> Print each character of a string using a loop.
+let y = 'abcdefg'; 
+let getElm = '';
+for(let i = 0; i < y.length; i++){
+    getElm += y[i] + " "
+}
+console.log(getElm);
