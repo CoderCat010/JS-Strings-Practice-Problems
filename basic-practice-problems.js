@@ -3,3 +3,8 @@
 // console.log(str);
 
 
+//-----> Access the first character of a string.
+// let x = 'fhdfh';
+// console.log(x[0]);
+
+
