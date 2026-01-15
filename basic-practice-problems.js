@@ -8,6 +8,11 @@
 // console.log(x[0]);
 
 
+//-----> Reverse a string.
+// let x = 'abcde';
+// let y = x.split('').reverse().join()
+
+// console.log(y);
 
 
 
