@@ -5,3 +5,14 @@
 //     count++;
 // }
 // console.log(count);
+
+
+//-----> Access the first character of a string.
+// let x = 'hddnhdndhs';
+// let firstChar;
+
+// for(char of x){
+//     firstChar = char[0];
+//     break;
+// }
+// console.log(char);
