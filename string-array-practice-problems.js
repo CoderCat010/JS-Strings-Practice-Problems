@@ -21,10 +21,10 @@
 
 
 //-----> Find the length of each string in an array.
-let arrStr = ['aaa','bbbb','ccccc','dddddd','eeeeeee'];
-let eachStrLengths = [];
+// let arrStr = ['aaa','bbbb','ccccc','dddddd','eeeeeee'];
+// let eachStrLengths = [];
 
-for(let i = 0; i < arrStr.length; i++){
-    eachStrLengths.push(arrStr[i].length);
-}
-console.log(eachStrLengths);
+// for(let i = 0; i < arrStr.length; i++){
+//     eachStrLengths.push(arrStr[i].length);
+// }
+// console.log(eachStrLengths);
