@@ -91,12 +91,12 @@
 
 
 //-----> Remove duplicate characters from a string.
-let str = 'hddshdhdnhfgfhhjdhihdvnnffydfyjcjsnla';
-let duplicateStr = '';
+// let str = 'hddshdhdnhfgfhhjdhihdvnnffydfyjcjsnla';
+// let duplicateStr = '';
 
-for(let i = 0; i < str.length; i++){
-    if(duplicateStr.includes(str[i]) == false){
-        duplicateStr += str[i];
-    }
-}
-console.log(duplicateStr);
+// for(let i = 0; i < str.length; i++){
+//     if(duplicateStr.includes(str[i]) == false){
+//         duplicateStr += str[i];
+//     }
+// }
+// console.log(duplicateStr);
