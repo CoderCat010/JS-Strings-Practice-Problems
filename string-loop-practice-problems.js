@@ -54,13 +54,25 @@
 
 
 //-----> Find the longest word in a sentence.
-let sentence = `amar sonar bangla, ami tomay valobashi`;
-let getWords = sentence.split(' ')
-let currentLongestSentence = getWords[0];
+// let sentence = `amar sonar bangla, ami tomay valobashi`;
+// let getWords = sentence.split(' ')
+// let currentLongestSentence = getWords[0];
 
-for(let i = 0; i < getWords.length; i++){
-    if(getWords[i].length > currentLongestSentence.length){
-        currentLongestSentence = getWords[i];
-    }
-}
-console.log(currentLongestSentence);
+// for(let i = 0; i < getWords.length; i++){
+//     if(getWords[i].length > currentLongestSentence.length){
+//         currentLongestSentence = getWords[i];
+//     }
+// }
+// console.log(currentLongestSentence);
+
+
+//-----> Count digits in a string.
+// let x = 'djdijcd33445443kdnvdjn34u384u83njnjvjnf48u834u8jf47yg873uu';
+// let count = 0;
+
+// for(let i = 0; i < x.length; i++){
+//     if(x[i] >= '0' && x[i] <= '9'){
+//         count++;
+//     }
+// }
+// console.log(count);
