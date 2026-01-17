@@ -1,0 +1,6 @@
+=================================QUESTION: 1
+split('') eita and split(' ') duitar moddhe parthokko ki? 
+=======================================================================================================
+duitar parthokko hocce prothome ta orthat split('') etar mane hocce just latter akare venge array te rupantor korbe orthat ["a", "m", "a", "r"] eivabe. ebong split(' ') etar mane hocce word akare vangbe mane ["amar", "sonar", "bangla"] eivabe.
+=======================================================================================================
+
