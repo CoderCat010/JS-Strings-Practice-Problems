@@ -33,8 +33,25 @@
 // let vowelsSet = 'aeiou'
 
 // for(let i = 0; i < vowels.length; i++){
+//     if(vowelsSet.includes(vowels[i])){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+// -----> Count consonants in a string.
+// let vowels = 'adnwjfheufhaeiujjaieujijchooslsmjnccygfyegvbhnwidwppqlsidjwe';
+// let count = 0;
+// let vowelsSet = 'aeiou'
+
+// for(let i = 0; i < vowels.length; i++){
 //     if(!vowelsSet.includes(vowels[i])){
 //         count++;
 //     }
 // }
 // console.log(count);
+
+
+
+Find the longest word in a sentence.
