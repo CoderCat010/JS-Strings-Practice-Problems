@@ -90,12 +90,13 @@
 // console.log(Number(getOnlyDigits));
 
 
-//-----> Check if a string starts with a given substring.
-// let str = 'oecdicmmc';
-// let subStr = 'o';
+//-----> Remove duplicate characters from a string.
+let str = 'hddshdhdnhfgfhhjdhihdvnnffydfyjcjsnla';
+let duplicateStr = '';
 
-// if(str[0] == subStr){
-//     console.log('true');
-// }else{
-//     console.log('false');
-// }
+for(let i = 0; i < str.length; i++){
+    if(duplicateStr.includes(str[i]) == false){
+        duplicateStr += str[i];
+    }
+}
+console.log(duplicateStr);

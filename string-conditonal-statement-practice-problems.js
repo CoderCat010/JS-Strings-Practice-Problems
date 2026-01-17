@@ -5,3 +5,14 @@
 // }else{
 //     console.log('false');
 // }
+
+
+//-----> Check if a string starts with a given substring.
+// let str = 'oecdicmmc';
+// let subStr = 'o';
+
+// if(str[0] == subStr){
+//     console.log('true');
+// }else{
+//     console.log('false');
+// }
