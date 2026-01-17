@@ -27,13 +27,13 @@
 // console.log(getElm);
 
 
-//-----> Count vowels in a string.
+// -----> Count vowels in a string.
 // let vowels = 'adnwjfheufhaeiujjaieujijchooslsmjnccygfyegvbhnwidwppqlsidjwe';
 // let count = 0;
 // let vowelsSet = 'aeiou'
 
 // for(let i = 0; i < vowels.length; i++){
-//     if(vowelsSet.includes(vowels[i])){
+//     if(!vowelsSet.includes(vowels[i])){
 //         count++;
 //     }
 // }
