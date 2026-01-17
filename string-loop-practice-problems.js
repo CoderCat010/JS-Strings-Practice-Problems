@@ -76,3 +76,15 @@
 //     }
 // }
 // console.log(count);
+
+
+//-----> Extract only digits from a string.
+let str = 'hrufh834f34fh3fcerhf83fh834f7fvh384w347hf83hf';
+let getOnlyDigits = '';
+
+for(let i = 0; i < str.length; i++){
+    if(str[i] >= '0' && str[i] <= '9'){
+        getOnlyDigits += str[i]
+    }
+}
+console.log(Number(getOnlyDigits));
