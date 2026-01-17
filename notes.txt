@@ -4,3 +4,5 @@
 // let y = x.split('').reverse().join() // sorasori reverse method ta string er upor kaj kore na karon eta array er ekta method tai amara age split kore prottekta character ke 'a', 'b' eivabe ekta array te rupantor korci jate reverse method ta kaj kora te pari then join dici jate array ta concat hoye ulte jay but sting er moto hoy abar like prothome chilo 'abcde'---> ['a', 'b', 'c', 'd', 'e']---> ['e', 'd', 'c', 'b', 'a']---> 'edcba'
 
 // console.log(y); 
+
+

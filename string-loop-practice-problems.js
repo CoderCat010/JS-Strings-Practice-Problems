@@ -53,5 +53,14 @@
 // console.log(count);
 
 
+//-----> Find the longest word in a sentence.
+let sentence = `amar sonar bangla, ami tomay valobashi`;
+let getWords = sentence.split(' ')
+let currentLongestSentence = getWords[0];
 
-Find the longest word in a sentence.
+for(let i = 0; i < getWords.length; i++){
+    if(getWords[i].length > currentLongestSentence.length){
+        currentLongestSentence = getWords[i];
+    }
+}
+console.log(currentLongestSentence);
