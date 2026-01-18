@@ -22,4 +22,17 @@
 // }
 
 
+//------> convert to hours and minutes 
+/*
+    * input: totalMinutes = 130
+    * output: '2h 10m'
+*/
+// let totalMinutes = 130;
+// let hours = Math.floor(totalMinutes / 60);
+// let minutes = totalMinutes % 60;
+// console.log(hours+'h '+ 'and ' + minutes+'m');
+
+
+
+
 
