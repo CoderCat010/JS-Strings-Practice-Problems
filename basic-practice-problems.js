@@ -33,6 +33,39 @@
 // console.log(hours+'h '+ 'and ' + minutes+'m');
 
 
+//-----> Given a salary as a string, calculate and print the final salary as a string.
+/*
+    * 10% tax
+    * 5% bonus
+    * Input: "50000"  
+    * Output: "47500"
+*/
+let totaSalary = '50000';
+let forTax = totaSalary * 0.1;
+let afterTax = totaSalary - forTax;
+
+let bonus = totaSalary * 0.05;
+let finalSalary = afterTax + bonus;
+
+console.log(finalSalary.toString());
+
+
+//----->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
