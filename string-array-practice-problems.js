@@ -40,3 +40,16 @@
 //     }
 // }
 // console.log(longest);
+
+
+//-----> Count how many strings are empty.
+// let arrStr = ['aaa','bbbb', '', 'ccccc', '', 'dddddd', '', 'eeeeeee'];
+// let count = 0;
+
+
+// for(let i = 0; i < arrStr.length; i++){
+//     if(arrStr[i] == ''){
+//         count++;
+//     }
+// }
+// console.log(count);
