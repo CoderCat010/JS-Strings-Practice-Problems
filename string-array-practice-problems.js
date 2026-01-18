@@ -53,3 +53,17 @@
 //     }
 // }
 // console.log(count);
+
+
+//-----> Reverse each string word-wise.
+// let str = ['amar', 'sonar', 'bangla'];
+// let reverseArrElm = [];
+
+// for (let i = 0; i < str.length; i++) {
+//     reverseArrElm.push(str[i].split('').reverse().join('')) 
+// }
+// console.log(reverseArrElm);
+
+
+
+
