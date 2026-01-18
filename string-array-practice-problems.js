@@ -28,3 +28,15 @@
 //     eachStrLengths.push(arrStr[i].length);
 // }
 // console.log(eachStrLengths);
+
+
+//-----> Find the longest string in an array.
+// let arrStr = ['aaa','bbbb','ccccc','dddddd','eeeeeee'];
+// let longest = arrStr[0];
+
+// for(let i = 0; i < arrStr.length; i++){
+//     if(arrStr[i] > longest){
+//         longest = arrStr[i];
+//     }
+// }
+// console.log(longest);

@@ -1,14 +1,14 @@
 //=============================NOTE:1
-//-----> Reverse a string.
-// let x = 'abcde';
-// let y = x.split('').reverse().join() // sorasori reverse method ta string er upor kaj kore na karon eta array er ekta method tai amara age split kore prottekta character ke 'a', 'b' eivabe ekta array te rupantor korci jate reverse method ta kaj kora te pari then join dici jate array ta concat hoye ulte jay but sting er moto hoy abar like prothome chilo 'abcde'---> ['a', 'b', 'c', 'd', 'e']---> ['e', 'd', 'c', 'b', 'a']---> 'edcba'
+-----> Reverse a string.
+let x = 'abcde';
+let y = x.split('').reverse().join() // sorasori reverse method ta string er upor kaj kore na karon eta array er ekta method tai amara age split kore prottekta character ke 'a', 'b' eivabe ekta array te rupantor korci jate reverse method ta kaj kora te pari then join dici jate array ta concat hoye ulte jay but sting er moto hoy abar like prothome chilo 'abcde'---> ['a', 'b', 'c', 'd', 'e']---> ['e', 'd', 'c', 'b', 'a']---> 'edcba'
 
-// console.log(y); 
+console.log(y); 
 
 
 
-//=============================NOTE: 2
-//-----> Find the longest word in a sentence.
+//=============================NOTE:2
+-----> Find the longest word in a sentence.
 let sentence = `amar sonar bangla, ami tomay valobashi`;
 let getWords = sentence.split(' ')
 let currentLongestSentence = getWords[0];
@@ -19,4 +19,16 @@ for(let i = 0; i < getWords.length; i++){
     }
 }
 console.log(currentLongestSentence); // (getWords[i].length > currentLongestSentence.length) eikhane dot length jodi na dei tahole js eta ke latter er sathe compre kore amader uttor dibe like ekhane valobshai word ta sobar boro amra (getWords[i] > currentLongestSentence) evabe condition ta dile o latter er sathe compare kore valobashi result ta print korce not actual ta mane amra jacchi world er length onushare jeita boro seta print hok doesnt matter latter boro choto ami eta dara bujacci ekhabe v > a mane a--> v er theke choto v --> a er theke boro eivabe o compare ta korto (getWords[i] > currentLongestSentence) eivabe dile jekhane amader mone hote pare thikoi to dice but amra jodi pore aaaaaaaaaaaaaaaaaaaaaa eita ditam tahole dekhta o valobashi tai print kortece karon a v er theke choto but jokhon amra (getWords[i].length > currentLongestSentence.length) jokhon amra eita ditam tokhon or ki bujto word er length onushare compare ta korte hobe tokhon ei a boro naki v boro matter korto na o tokhon aaaaaaaaaaaaaaaaaaaaaa eita prinit korto.
+
+
+
+//==============================NOTE:3
+-----> Find the length of each string in an array.
+let arrStr = ['aaa','bbbb','ccccc','dddddd','eeeeeee'];
+let eachStrLengths = [];
+
+for(let i = 0; i < arrStr.length; i++){
+     eachStrLengths.push(arrStr[i].length); // ekhane age arrStr[i] diye prottekta value ke dhorce mane 0 1 2 3 4 evabe index ba position je value ba str gulo ache segulo dhorce then amra abar dot length dici orthat arrStr[i].length eita dici etar mane holo age index number diye value ta dhorci then oi value tar length count korci jemon aaa eikhane 3 ta substring ache so eivabe prottekta count kore let eachStrLengths = []; eikhane store korci then setai print hoice je prottekta value ba string er length ta koto koto.
+}
+console.log(eachStrLengths);
 
