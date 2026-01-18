@@ -55,7 +55,7 @@
 // console.log(count);
 
 
-//-----> Reverse each string word-wise.
+//-----> Reverse each string in a array.
 // let str = ['amar', 'sonar', 'bangla'];
 // let reverseArrElm = [];
 
@@ -65,5 +65,16 @@
 // console.log(reverseArrElm);
 
 
+//-----> Reverse each string word-wise.
+//-----> Reverse each string word-wise (same way)
+// let str = 'amar sonar bangla';
+// let reverseWords = [];
+// let words = str.split(' ');
 
+// for (let i = 0; i < words.length; i++) {
+  
+//     let reversedElm = words[i].split('').reverse().join('');
+//     reverseWords.push(reversedElm);
+// }
+// console.log(reverseWords.join(' '));
 
