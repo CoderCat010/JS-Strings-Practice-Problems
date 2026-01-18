@@ -30,3 +30,29 @@
 // }else{
 //     console.log('please give a number');
 // }
+
+
+//-----> Your online shop applies discounts dynamically. calculate Price and discount percentage and print as string.
+
+/*
+    * Calculate final price after discount.
+    * Input: "1200", "10"
+    * Output: "1080"
+*/
+// let price = 1200;
+// let totalPrice;
+
+// if(price > 1000){
+//     let discount = price * 0.1;
+//     totalPrice = price - discount;
+//     console.log(totalPrice);
+// }else{
+//     let discount = price * 0.05;
+//     totalPrice = price - discount;
+//     console.log(totalPrice);
+// }
+// console.log(totalPrice);
+
+
+
+
