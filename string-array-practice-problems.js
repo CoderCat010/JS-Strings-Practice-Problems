@@ -78,5 +78,5 @@
 // console.log(reverseWords.join(' '));
 
 
-//-----> Find the string with the highest repeating character.
+
 
