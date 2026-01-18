@@ -15,4 +15,11 @@
 // console.log(y);
 
 
+//------> get the substrings of a string.
+// let str = 'jsisjdsjd';
+// for(let i = 0; i < str.length; i++){
+//     console.log(str[i]);
+// }
+
+
 

@@ -66,7 +66,6 @@
 
 
 //-----> Reverse each string word-wise.
-//-----> Reverse each string word-wise (same way)
 // let str = 'amar sonar bangla';
 // let reverseWords = [];
 // let words = str.split(' ');
@@ -77,4 +76,7 @@
 //     reverseWords.push(reversedElm);
 // }
 // console.log(reverseWords.join(' '));
+
+
+//-----> Find the string with the highest repeating character.
 
