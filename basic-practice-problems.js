@@ -62,6 +62,20 @@
 // console.log(outputStr);
 
 
+//-----> Given a full name string, print only initial substring of each words of string. 
+/*
+    * Input: "Ayatul Orin Megh"
+    * Output: "AOM"
+*/
+// let inputStr = "Ayatul Orin Megh";
+// let getValue = '';
+// let modifiedStr = inputStr.split(" ")
+// console.log(modifiedStr);
+
+// for(let i = 0; i < modifiedStr.length; i++){
+//     getValue += modifiedStr[i][0];
+// }
+// console.log(getValue);
 
 
 
