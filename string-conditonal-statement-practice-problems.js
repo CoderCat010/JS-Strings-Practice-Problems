@@ -54,5 +54,17 @@
 // console.log(totalPrice);
 
 
+//-----> A user writes a sentence in a text box, your task is to convert the sentence into an array of words.
+/*
+    * Words are separated by spaces
+    * Ignore extra spaces
+    * Input: "I love programming"
+    * Output: ["I", "love", "programming"]
+*/
+// let inputStr = "I love programming";
+// let outputStr = inputStr.split(" ")
+// console.log(outputStr);
+
+
 
 
