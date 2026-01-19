@@ -7,6 +7,7 @@
 // console.log(count);
 
 
+
 //-----> Access the first character of a string.
 // let x = 'hddnhdndhs';
 // let firstChar;
@@ -18,6 +19,7 @@
 // console.log(char);
 
 
+
 //-----> Print each character of a string using a loop.
 // let y = 'abcdefg'; 
 // let getElm = '';
@@ -25,6 +27,7 @@
 //     getElm += y[i] + " ";
 // }
 // console.log(getElm);
+
 
 
 // -----> Count vowels in a string.
@@ -40,6 +43,7 @@
 // console.log(count);
 
 
+
 // -----> Count consonants in a string.
 // let vowels = 'adnwjfheufhaeiujjaieujijchooslsmjnccygfyegvbhnwidwppqlsidjwe';
 // let count = 0;
@@ -51,6 +55,7 @@
 //     }
 // }
 // console.log(count);
+
 
 
 //-----> Find the longest word in a sentence.
@@ -66,6 +71,7 @@
 // console.log(currentLongestSentence);
 
 
+
 //-----> Count digits in a string.
 // let x = 'djdijcd33445443kdnvdjn34u384u83njnjvjnf48u834u8jf47yg873uu';
 // let count = 0;
@@ -76,6 +82,7 @@
 //     }
 // }
 // console.log(count);
+
 
 
 //-----> Extract only digits from a string.
@@ -90,6 +97,7 @@
 // console.log(Number(getOnlyDigits));
 
 
+
 //-----> Remove duplicate characters from a string.
 // let str = 'hddshdhdnhfgfhhjdhihdvnnffydfyjcjsnla';
 // let duplicateStr = '';
@@ -101,5 +109,41 @@
 // }
 // console.log(duplicateStr);
 
+
+
+//-----> Given a full name string, print only initial substring of each words of string. 
+/*
+    * Input: "Ayatul Orin Megh"
+    * Output: "AOM"
+*/
+// let inputStr = "Ayatul Orin Megh";
+// let getValue = '';
+// let modifiedStr = inputStr.split(" ")
+// console.log(modifiedStr);
+
+// for(let i = 0; i < modifiedStr.length; i++){
+//     getValue += modifiedStr[i][0];
+// }
+// console.log(getValue);
+
+
+
+//-----> Count how many words start with a given letter.
+/*
+    * Input: "kuku ru kuru kuru"
+    * Given Latter: "k"
+    * Output: "1"
+*/
+// let inputStr = "kuku ru kuru kuru";
+// let givenLetter = 'k';
+// let count = 0;
+// let words = inputStr.split(' '); 
+
+// for (let word of words) {
+//     if (word[0] === givenLetter) {
+//         count++;
+//     }
+// }
+// console.log(count); 
 
 

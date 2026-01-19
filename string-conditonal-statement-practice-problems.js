@@ -7,6 +7,7 @@
 // }
 
 
+
 //-----> Check if a string starts with a given substring.
 // let str = 'oecdicmmc';
 // let subStr = 'o';
@@ -16,6 +17,7 @@
 // }else{
 //     console.log('false');
 // }
+
 
 
 //-----> Given a string input "25", check if it is a valid age: 
@@ -30,6 +32,7 @@
 // }else{
 //     console.log('please give a number');
 // }
+
 
 
 //-----> Your online shop applies discounts dynamically. calculate Price and discount percentage and print as string.

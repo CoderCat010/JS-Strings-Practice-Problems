@@ -9,6 +9,7 @@
 // console.log(arrStr);
 
 
+
 //-----> Find the total length of strings in an array.
 // let arrStr = [
 //     'a',
@@ -18,6 +19,7 @@
 //     'e'
 // ];
 // console.log(arrStr.length);
+
 
 
 //-----> Find the length of each string in an array.
@@ -30,6 +32,7 @@
 // console.log(eachStrLengths);
 
 
+
 //-----> Find the longest string in an array.
 // let arrStr = ['aaa','bbbb','ccccc','dddddd','eeeeeee'];
 // let longest = arrStr[0];
@@ -40,6 +43,7 @@
 //     }
 // }
 // console.log(longest);
+
 
 
 //-----> Count how many strings are empty.
@@ -55,6 +59,7 @@
 // console.log(count);
 
 
+
 //-----> Reverse each string in a array.
 // let str = ['amar', 'sonar', 'bangla'];
 // let reverseArrElm = [];
@@ -63,6 +68,7 @@
 //     reverseArrElm.push(str[i].split('').reverse().join('')) 
 // }
 // console.log(reverseArrElm);
+
 
 
 //-----> Reverse each string word-wise.

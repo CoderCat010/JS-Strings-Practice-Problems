@@ -3,9 +3,11 @@
 // console.log(str);
 
 
+
 //-----> Access the first character of a string.
 // let x = 'fhdfh';
 // console.log(x[0]);
+
 
 
 //-----> Reverse a string.
@@ -15,11 +17,13 @@
 // console.log(y);
 
 
+
 //------> get the substrings of a string.
 // let str = 'jsisjdsjd';
 // for(let i = 0; i < str.length; i++){
 //     console.log(str[i]);
 // }
+
 
 
 //------> convert to hours and minutes 
@@ -31,6 +35,7 @@
 // let hours = Math.floor(totalMinutes / 60);
 // let minutes = totalMinutes % 60;
 // console.log(hours+'h '+ 'and ' + minutes+'m');
+
 
 
 //-----> Given a salary as a string, calculate and print the final salary as a string.
@@ -50,6 +55,7 @@
 // console.log(finalSalary.toString());
 
 
+
 //-----> A user writes a sentence in a text box, your task is to convert the sentence into an array of words.
 /*
     * Words are separated by spaces
@@ -62,20 +68,7 @@
 // console.log(outputStr);
 
 
-//-----> Given a full name string, print only initial substring of each words of string. 
-/*
-    * Input: "Ayatul Orin Megh"
-    * Output: "AOM"
-*/
-// let inputStr = "Ayatul Orin Megh";
-// let getValue = '';
-// let modifiedStr = inputStr.split(" ")
-// console.log(modifiedStr);
 
-// for(let i = 0; i < modifiedStr.length; i++){
-//     getValue += modifiedStr[i][0];
-// }
-// console.log(getValue);
 
 
 
