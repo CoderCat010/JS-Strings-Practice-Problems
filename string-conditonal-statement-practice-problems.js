@@ -83,6 +83,14 @@
 
 
 
+//-----> Replace banned words with "***" in user comment.
+/*
+    * Input: "This app is stupid"
+    * Banned words: ["stupid"]
+    * Output: "This app is ***"
+*/
+
+
 
 
 
