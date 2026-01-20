@@ -58,6 +58,31 @@
 
 
 
+//-----> Check if a password is strong.
+/*
+    * At least 8 characters
+    * At least 1 uppercase
+    * At least 1 lowercase
+    * At least 1 digit
+*/
+// let passWord = 'Asssbc';
+
+// if(passWord.length < 8){
+//     if(!/[A-Z]/.test(passWord)){
+//         console.log("Password must contain at least 1 uppercase letter");
+//     }else if(!/[a-z]/.test(passWord)){
+//         console.log("Password must contain at least 1 lowercase letter");
+//     }else if(!/[0-9]/.test(passWord)){
+//         console.log("Password must contain at least 1 digit");
+//     }else{
+//         console.log("Password must be at least 8 characters");
+//     }
+// }else{
+//     console.log("Strong Password");
+// }
+
+
+
 
 
 
