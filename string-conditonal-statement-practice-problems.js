@@ -86,11 +86,19 @@
 //-----> Replace banned words with "***" in user comment.
 /*
     * Input: "This app is stupid"
-    * Banned words: ["stupid"]
+    * Banned words: "stupid"
     * Output: "This app is ***"
 */
+// let userInput = "This app is stupid";
+// let BannedWords = "stupid";
 
-
+// if(userInput.includes(BannedWords)){
+//     userInput = userInput.replace(BannedWords, '***')
+//     console.log(userInput);
+    
+// }else{
+//     console.log(userInput);
+// }
 
 
 
