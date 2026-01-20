@@ -107,7 +107,6 @@
     * Contains only digits
     * Length exactly 10
 */
-let userInput = '139393939';
 
 
 
