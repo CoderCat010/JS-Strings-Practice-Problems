@@ -102,12 +102,12 @@
 
 
 
-//-----> Replace banned words with "***" in user comment.
+//-----> Check if phone number is digit or string
 /*
-    * Input: "This app is stupid"
-    * Banned words: "stupid"
-    * Output: "This app is ***"
+    * Contains only digits
+    * Length exactly 10
 */
+let userInput = '139393939';
 
 
 
