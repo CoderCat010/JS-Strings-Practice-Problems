@@ -102,11 +102,25 @@
 
 
 
-//-----> Check if phone number is digit or string
+//-----> check phone number
 /*
+    * Length exactly 11
     * Contains only digits
-    * Length exactly 10
 */
+let phone = "12222222222";
+
+if (isNaN(phone)) {
+    console.log("Please enter digits only");
+} 
+else if (phone.length !== 11) {
+    console.log("Phone number must be 11 digits");
+} 
+else {
+    console.log(Number(phone));
+}
+
+
+
 
 
 
