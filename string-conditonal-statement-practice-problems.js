@@ -36,7 +36,6 @@
 
 
 //-----> Your online shop applies discounts dynamically. calculate Price and discount percentage and print as string.
-
 /*
     * Calculate final price after discount.
     * Input: "1200", "10"
@@ -107,17 +106,16 @@
     * Length exactly 11
     * Contains only digits
 */
-let phone = "12222222222";
+// let phone = "12222222222";
 
-if (isNaN(phone)) {
-    console.log("Please enter digits only");
-} 
-else if (phone.length !== 11) {
-    console.log("Phone number must be 11 digits");
-} 
-else {
-    console.log(Number(phone));
-}
+// if (isNaN(phone)) {
+//     console.log("Please enter digits only");
+// }else if (phone.length !== 11) {
+//     console.log("Phone number must be 11 digits");
+// }else {
+//     console.log(Number(phone));
+// }
+
 
 
 
